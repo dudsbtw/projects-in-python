@@ -1,12 +1,12 @@
-penalty = False
-while penalty == False:
-    max_velocity = 80
-    velocity = int(input('What was the speed of the car? '))
-    if velocity <= max_velocity:
-        print('There was no fine.')
-    elif velocity >= max_velocity and velocity <= max_velocity + 10:
-        print('Light fine.')
-    elif velocity >= max_velocity +11 and velocity <= max_velocity + 20:
-        print('Serious fine.')
-    elif velocity >= max_velocity + 20:
-        print('Very serious fine.')
+multa = False
+while multa == False:
+    velocidade_max = 80
+    velocidade = int(input('Qual era a velocidade do carro? '))
+    if velocidade <= velocidade_max:
+        print('Não houve multa.')
+    elif velocidade > velocidade_max and velocidade <= velocidade_max + 10:
+        print('Multa leve.')
+    elif velocidade > velocidade_max +11 and velocidade <= velocidade_max + 20:
+        print('Multa grave.')
+    elif velocidade > velocidade_max + 20:
+        print('Multa gravíssima.')
