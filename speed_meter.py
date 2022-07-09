@@ -6,7 +6,7 @@ while multa == False:
         print('Não houve multa.')
     elif velocidade > velocidade_max and velocidade <= velocidade_max + 10:
         print('Multa leve.')
-    elif velocidade > velocidade_max +11 and velocidade <= velocidade_max + 20:
+    elif velocidade >= velocidade_max +11 and velocidade <= velocidade_max + 20:
         print('Multa grave.')
     elif velocidade > velocidade_max + 20:
         print('Multa gravíssima.')
